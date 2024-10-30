@@ -1,0 +1,104 @@
+*{
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-image: url(imgs/WhatsApp\ Image\ 2024-10-22\ at\ 01.19.00.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: right top;
+  color: #fff;
+}
+header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+h1,
+h2,
+p,
+#ul-menu{
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  margin-top: 20px;
+}
+#ul-menu li{
+
+  display: flex;
+  margin-left: 20px;
+  text-align: center;
+  justify-content: center;
+}
+.menu{
+  height: 10%;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  background-color: rgba(0, 0, 0, 0.658);
+  padding: 10px;
+}
+.stars{
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+}
+div {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+li {
+  list-style-type: none;
+}
+
+.stars {
+  display: inline-block;
+  font-size: 1.5rem;
+  color: gold;
+}
+
+.star {
+  font-size: 1.5rem;
+}
+div{
+  background-color: rgba(0, 0, 0, 0.651);
+}
+/* Estilos para a seção de avaliações */
+.rating-container {
+  display: grid;
+  grid-template-columns: auto auto; /* Coloca duas colunas: uma para estrelas e outra para o número de avaliações */
+  gap: 10px; /* Espaçamento entre as linhas */
+  max-width: 600px; /* Largura máxima para centralizar */
+  margin: 0 auto; /* Centralizar horizontalmente */
+  text-align: left;
+}
+
+.rating-row {
+  display: flex;
+  justify-content: space-between; /* Espaça as estrelas e o texto à direita */
+  align-items: center;
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.3
+  ); /* Fundo semitransparente para destacar */
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.rating-count {
+  color: #fff;
+  margin-left: 10px;
+}
+
+@media (max-width: 600px) {
+  .rating-container {
+    grid-template-columns: 1fr /* Em telas menores, as colunas ficam uma embaixo da outra */
+  }
+}
