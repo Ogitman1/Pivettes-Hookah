@@ -6,19 +6,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
   <link rel="stylesheet" href="Pivettes Hookah.css"> 
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Karla+Tamil+Inclined:wght@400;700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 </head> 
 
 <body> 
   <header> 
     <div class="menu" style="background-color: black;">  
-      <img style="border-radius: 50%;" height="70" width="80" src="./imgs/pivette.jpeg"/> 
-      <h1>Pivettes Hookah</h1> 
+      <img style="border-radius: 50%;" height="80" width="100" src="./imgs/logo.png"/> 
+      <h1 class="merriweather-regular">Pivettes Hookah</h1> 
         
-        <ul id="ul-menu">
+        <ul class="merriweather-light" id="ul-menu">
           <li>home</li>
-          <li>castro</li>
+          <li>cadastro</li>
           <li>Eventos</li>
           <li>reservas</li>
         </ul>
@@ -29,92 +29,44 @@
   <main> 
     <article> 
       <div style="flex-direction: column;display: flex;justify-content: center; align-items: center;text-align: center; height: auto; padding: 10px; ">
-        <img  height="400px" width="70%" src="./imgs/pivette.jpeg"/> 
+        <img  height="400px" width="60%" src="./imgs/pivette3.png"/> 
+      </div>
+      <div style="flex-direction: row;display: flex;justify-content: space-evenly;text-align: center; height: auto;  ">
+        <img  height="300px" width="30%" src="./imgs/amigos.jpeg"/> 
+        <img   src="./imgs/marmanjos.jpg"/>
+        <img  height="300px" width="30%" src="./imgs/mulher.jpeg"/> 
+         
       </div>
       <div style="display: flex;justify-content: center; align-items: center; text-align: center; height: 300px;width: 100%;background-image: url('/imgs/estilo.png');background-size: contain; background-repeat: no-repeat; background-position: top center;">
-        <h2 style="font-size: 27px; text-align: center; margin-bottom: 22px; background-color: rgba(0, 0, 0, 0.603); padding: 6px 20px;">Diferentes estilos, mas a mesma cultura</h2></div>
+        <h2 class="playfair-display" style="font-size: 27px; text-align: center; margin-bottom: 22px; background-color: rgba(0, 0, 0, 0.603); padding: 6px 20px;">Origens diferentes, uma mesma cultura</h2>
+      </div>
       <div style="display: flex;justify-content: center; text-align: center; height: auto; ">
         
         <img  height="330px" width="70%" src="https://cdn.awsli.com.br/600x450/294/294169/produto/47621418/narguile-amazon-hookah-future-prime---gold-redwood-clear-gcl02jp25y.png"/> 
         <img  height="330px" width="70%" src="data:image/jpeg;base64,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"/>
         <img  height="330px" width="70%" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShar_cYE_Vl-TtejKZqVc103ej3jScxHNfgQ&s"/>
       </div>
+      <div style="display: flex;justify-content: center; text-align: center; height: auto; ">
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus veniam accusamus fuga alias omnis aliquid. Iusto nemo illo cumque animi aut harum quibusdam aspernatur et, velit, dolorem officiis maiores! Iste!</p>
+      </div>
       <div style="display: flex; justify-content: center;">
         <img src="/imgs/image2.png" style="margin-top: 10px;" height="70" width="80%" alt="linha chique">
       </div>
-      <div style="display: flex;justify-content: center; text-align: center; height: auto; ">
+      
+      <div style="display: flex;justify-content: center; text-align: center; height: auto; margin: 10px 0; padding: 10px 3em;">
+        <img  height="400px" width="50%" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmRBwSW1874MTDiFY8oKbJqFdj-yomAEFt0A&s"/> 
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus veniam accusamus fuga alias omnis aliquid. Iusto nemo illo cumque animi aut harum quibusdam aspernatur et, velit, dolorem officiis maiores! Iste!</p>
       </div>
-      <div style="display: flex;justify-content: center; text-align: center; height: auto; ">
-        <img  height="400px" width="70%" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmRBwSW1874MTDiFY8oKbJqFdj-yomAEFt0A&s"/> 
+      <div style="display: flex;justify-content: center; text-align: center; height: auto; margin: 0 0 10px 0; padding: 10px 3em; ">
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus veniam accusamus fuga alias omnis aliquid. Iusto nemo illo cumque animi aut harum quibusdam aspernatur et, velit, dolorem officiis maiores! Iste!</p>
+        <img  height="400px" width="50%" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxHsJbjS3hU00prabZ1qdtfSjFK-sFILW58Q&s"/>
       </div>
-      <div style="display: flex;justify-content: center; text-align: center; height: auto; ">
+      <div style="display: flex;justify-content: center; text-align: center; height: auto;  margin: 0 0 10px 0; padding: 10px 3em;">
+        <img  height="400px" width="50%" src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTfvyqim5Px7hUgjJ6zd103ZcQbrzigkcb4Pvgma9RBc9w0979Kz3Ga41It7Hg0VwFko0ya7JlTKBae-scazuIZ96xLwduLqTilYH7o78owTKdI1Q9YyfbPL1s&usqp=CAE"/>
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus veniam accusamus fuga alias omnis aliquid. Iusto nemo illo cumque animi aut harum quibusdam aspernatur et, velit, dolorem officiis maiores! Iste!</p>
-        <img  height="400px" width="70%" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxHsJbjS3hU00prabZ1qdtfSjFK-sFILW58Q&s"/>
+        
       </div>
       
-      <div> 
-        <h2>4,5 de 5 </h2> 
-        <div class="stars">
-          <span style="font-family: 'roboto';" class="star" data-value="1">★</span>
-          <span class="star" data-value="2">★</span>
-          <span class="star" data-value="3">★</span>
-          <span class="star" data-value="4">★</span>
-          <span class="star" data-value="5">☆</span>
-        </div>
-      </div> 
-
-      <ul> 
-        <div> 
-          <li style="font-family: 'roboto';">5 Estrelas</li> 
-          <li style="font-family: 'roboto';">4 Estrelas</li> 
-          <li style="font-family: 'roboto';">3 Estrelas</li> 
-          <li style="font-family: 'roboto';">2 Estrelas</li> 
-          <li style="font-family: 'roboto';">1 Estrelas</li> 
-        </div> 
-        <div> 
-          <li>1.700 Avaliações</li> 
-          <li>1.000 Avaliações</li> 
-          <li>150 Avaliações</li> 
-          <li>100 Avaliações</li> 
-          <li>50 Avaliações</li> 
-        </div> 
-      
-        <div><h3>Principais avaliações</h3> 
-          <div class="review">
-            <p><strong>Telma</strong> - Bebida de qualidade, ótimo preço, bebida gelada, entrega rápida.</p> 
-            <div class="stars">
-              <span class="star selected">★</span>
-              <span class="star selected">★</span>
-              <span class="star selected">★</span>
-              <span class="star selected">★</span>
-              <span class="star selected">★</span>
-            </div>
-          </div>
-
-          <div class="review">
-            <p><strong>Lucas</strong> - Ótima localização, preços justos e atendimento excelente.</p> 
-            <div class="stars">
-              <span class="star selected">★</span>
-              <span class="star selected">★</span>
-              <span class="star selected">★</span>
-              <span class="star selected">★</span>
-              <span class="star">☆</span>
-            </div>
-          </div>
-
-          <div class="review">
-            <p><strong>Denison</strong> - Preço excelente.</p> 
-            <div class="stars">
-              <span class="star selected">★</span>
-              <span class="star selected">★</span>
-              <span class="star selected">★</span>
-              <span class="star">☆</span>
-              <span class="star">☆</span>
-            </div>
-          </div>
-        </div> 
       </article> 
       </ul> 
     </main> 
